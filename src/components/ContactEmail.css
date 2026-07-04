@@ -1,0 +1,18 @@
+.contact-email {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.contact-email__link {
+  color: var(--accent-purple);
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+  word-break: break-all;
+}
+
+.contact-email__link:hover {
+  color: var(--accent-cyan);
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.contact-section {
+  background: var(--bg-secondary);
+  position: relative;
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.3), transparent);
+}
+
+.contact-section__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: clamp(2.5rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.contact-section__header p {
+  margin-top: 1.125rem;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.contact-section__header .contact-email {
+  margin-top: 1.25rem;
+}
+
+.contact-section__linkedin {
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 860px) {
+  .contact-section__grid {
+    grid-template-columns: 1fr;
+  }
+}
