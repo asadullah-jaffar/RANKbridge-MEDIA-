@@ -1,16 +1,26 @@
 # React + Vite
+# AI Crawler Readiness Checklist
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A practical checklist to help you understand whether your website is technically ready to be read, understood, and cited by AI crawlers (ChatGPT, Perplexity, Gemini, Claude) — not just Google.
 
-Currently, two official plugins are available:
+## Why this matters
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Buyers increasingly ask AI assistants for recommendations before visiting a website. If your brand isn't structured for AI crawlers to read and corroborate, you won't show up in those answers — even if you rank #1 on Google.
 
-## React Compiler
+## Checklist
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [ ] **robots.txt** allows known AI crawlers (GPTBot, PerplexityBot, ClaudeBot, Google-Extended)
+- [ ] **llms.txt** file present at root, describing your site for LLM ingestion
+- [ ] **Schema.org markup** (Organization, Product, FAQPage) implemented correctly
+- [ ] **Canonical URLs** set consistently across pages
+- [ ] Content written in clear, quotable, fact-first language (avoid marketing fluff in the first paragraph)
+- [ ] Third-party citations / mentions exist that AI models can use to corroborate claims about your brand
+- [ ] Comparison and category pages exist for AI models to reference when answering "best X for Y" queries
 
-## Expanding the Oxlint configuration
+## Want a full diagnostic?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+This checklist covers the basics. For a complete AI Brand Visibility diagnostic — testing 50+ real prompts across ChatGPT and Perplexity, competitor gap analysis, and copy-paste fixes — try the free report from **[Dattva AI](https://dattva.com/)**.
+
+---
+
+Maintained by [Dattva AI](https://dattva.com/) — AI Brand Visibility Diagnostic.
